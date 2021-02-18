@@ -1,0 +1,67 @@
+/**
+ * Theme Name: WP Bootstrap Starter Child Theme
+ * Template: wp-bootstrap-starter
+ */
+@import url('../wp-bootstrap-starter/style.css');
+
+.property_type .row{
+    margin-bottom: 15px;
+}
+
+.property_type .option_value{
+    font-weight: bold;
+}
+
+.property_type .option_image{
+    max-width: 100%;
+}
+
+.property_type table td{
+    border: 1px gray solid;
+    padding: 5px;
+}
+
+.input-group-checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.input-group-checkbox input{
+    margin-left: 15px;
+}
+
+.input-group-checkbox label{
+    margin-bottom: 5px;
+}
+
+#property_filter .input-group{
+    margin-bottom: 15px;
+}
+
+#property_filter  .input-group  label{
+    display: block;
+    width: 100%;
+}
+
+
+
+#property_filter .input-group input, #property_filter .input-group select{
+    width: 100%;
+}
+
+#searcResults{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+}
+
+.property-ajax-search-results .property img{
+    max-width: 250px;
+}
+
+.property-ajax-search-results .row{
+    width: 100%;
+}
